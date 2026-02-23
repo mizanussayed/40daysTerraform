@@ -4,3 +4,6 @@ This repository contains practice exercises for learning Terraform with AWS. Eac
 
 ## install Terraform
 Download the Terraform from the [official website](https://developer.hashicorp.com/terraform/tutorials/aws-get-started/install-cli)
+
+
+here i follow task fo (kodekloud)[https://kodekloud.com/practice/terraform-aws-40-days] and create this repository to share my code and practice with others.
