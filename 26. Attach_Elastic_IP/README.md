@@ -7,7 +7,6 @@ There is an instance named nautilus-ec2 and an elastic-ip named nautilus-ec2-eip
 ## previous main.tf file content
 
 ```hcl
-# Provision EC2 instance
 resource "aws_instance" "ec2" {
   ami           = "ami-0c101f26f147fa7fd"
   instance_type = "t2.micro"
@@ -21,7 +20,6 @@ resource "aws_instance" "ec2" {
   }
 }
 
-# Provision Elastic IP
 resource "aws_eip" "ec2_eip" {
   tags = {
     Name = "nautilus-ec2-eip"
@@ -29,24 +27,8 @@ resource "aws_eip" "ec2_eip" {
 }
 ```
 
-## Updated main.tf file content
-
+## Updated main.tf 
 ```hcl
-# Provision EC2 instance
-resource "aws_instance" "ec2" {
-  ami           = "ami-0c101f26f147fa7fd"
-  instance_type = "t2.micro"
-  subnet_id     = "subnet-5a0cdb688adadd47b"
-  vpc_security_group_ids = [
-    "sg-5504c3d070533ccd5"
-  ]
-
-  tags = {
-    Name = "nautilus-ec2"
-  }
-}
-
-# Provision Elastic IP
 resource "aws_eip" "ec2_eip" {
   instance = aws_instance.ec2.id  # Attach the Elastic IP to the EC2 instance
   tags = {
