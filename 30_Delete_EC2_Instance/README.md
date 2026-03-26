@@ -20,10 +20,9 @@ resource "aws_instance" "ec2" {
   }
 }
 ``` 
-## Verify the instance is deleted
+## destroy & verify instance is deleted
 ```bash
 terraform destroy -target=aws_instance.ec2
-
 
 aws ec2 describe-instances \
   --region us-east-1 \
