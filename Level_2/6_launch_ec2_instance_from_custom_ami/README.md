@@ -1,0 +1,1 @@
+# 6_launch_ec2_instance_from_custom_ami

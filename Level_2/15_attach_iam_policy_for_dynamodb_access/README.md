@@ -1,0 +1,1 @@
+# 15_attach_iam_policy_for_dynamodb_access
