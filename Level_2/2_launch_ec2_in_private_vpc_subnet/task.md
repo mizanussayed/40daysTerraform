@@ -1,3 +1,5 @@
+## 🎯 task
+
 1. Create a VPC named `nautilus-priv-vpc` with the CIDR block 10.0.0.0/16.
 
 2. Create a subnet named `nautilus-priv-subnet` inside the VPC with the CIDR block 10.0.1.0/24 and auto-assign IP option must not be enabled.

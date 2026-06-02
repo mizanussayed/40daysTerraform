@@ -1,4 +1,7 @@
 # 5_associate_elastic_ip_with_ec2_instance
+
+## 🎯 task
+
 1. Create an EC2 instance named xfusion-ec2 using any Linux AMI like Ubuntu.
 
 2. Instance type must be t2.micro and associate an Elastic IP address named xfusion-eip with this instance.
@@ -7,7 +10,7 @@
 
 4. Use the outputs.tf file and output the instance name using variable KKE_instance_name and the Elastic IP using variable KKE_eip.
 
-## Solution
+## 🧑‍💻 Solution
 
 ### outputs.tf
 ```hcl

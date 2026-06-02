@@ -1,4 +1,7 @@
 # 6_launch_ec2_instance_from_custom_ami
+
+## 🎯 task
+
 1. They have an existing EC2 instance named nautilus-ec2.
 
 2. They need to create an AMI named nautilus-ec2-ami from this instance.
@@ -10,6 +13,8 @@
     - KKE_ami_id for the AMI ID you created.
     - KKE_new_instance_id for the EC2 instance ID you created.
 
+
+## 🧑‍💻 Solution
 
 ## previous main.tf file
 ```hcl

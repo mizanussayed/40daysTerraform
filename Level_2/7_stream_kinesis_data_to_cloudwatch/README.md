@@ -1,5 +1,6 @@
 # 7_stream_kinesis_data_to_cloudwatch
 
+## 🎯 task
 1. Create a Kinesis Data Stream: Name the stream `datacenter-kinesis-stream` with a shard count of 1.
 
 2. Enable Monitoring: Enable shard-level metrics for the stream to track ingestion and throughput errors.
@@ -16,6 +17,8 @@
 
     - kke_kinesis_alarm_name for the CloudWatch alarm name.
 
+
+## 🧑‍💻 Solution
 # main.tf
 ```hcl
 provider "aws" {

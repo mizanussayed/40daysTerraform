@@ -1,5 +1,6 @@
 # 4_deploy_multiple_ec2_instances
 
+## 🎯 task
 1. Create 3 EC2 instances using the count parameter.
 
 2. Name each EC2 instance with the prefix xfusion-instance (e.g., xfusion-instance-1).
@@ -22,6 +23,8 @@
 8. Use outputs.tf file to output the following:
 
     - kke_instance_names: names of the instances created.
+
+## 🧑‍💻 Solution
 
 ## variables.tf
 

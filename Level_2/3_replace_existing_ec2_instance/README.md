@@ -1,5 +1,7 @@
 # 3_replace_existing_ec2_instance
 
+## 🎯 task
+
 To test resilience and recreation behavior in Terraform, the DevOps team needs to demonstrate the use of the -replace option to forcefully recreate an EC2 instance without changing its configuration. Please complete the following tasks:
 
 1. Use the Terraform CLI -replace option to destroy and recreate the EC2 instance devops-ec2, even though the configuration remains unchanged.

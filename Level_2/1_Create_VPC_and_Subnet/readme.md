@@ -1,6 +1,6 @@
 Create VPC and Subnet Using Terraform
 
-## complete the following tasks:
+## 🎯 complete the following tasks:
 
 1. Create a VPC named nautilus-vpc.
 
@@ -21,3 +21,5 @@ Create VPC and Subnet Using Terraform
 
     - kke_vpc_name: The name of the VPC.
     - kke_subnet_name: The name of the Subnet.
+
+## 🧑‍💻 Solution
